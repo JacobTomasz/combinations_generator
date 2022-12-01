@@ -22,6 +22,7 @@ int main() {
     int k = 4;                      //length of string
     int n = (*(&set + 1) - set)-1;  //number of characters (NOTE: -1 accounts for \0 present in cstring)
     str_comb(set, "", n, k);
+
     //EXIT
     return 0;
 }
